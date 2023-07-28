@@ -12,4 +12,6 @@ function App() {
   );
 }
 
+//app을 가상돔으로 적용 및 바꾸기
+
 export default App;
