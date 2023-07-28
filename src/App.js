@@ -52,6 +52,8 @@ function App() {
     setXIsNext((prev) => !prev);
   };
 
+  //current, history, xIsNext를 이용해 board.js에서 app.js로 옮기기
+
   return (
     <div className="game">
       <div className="game-board">

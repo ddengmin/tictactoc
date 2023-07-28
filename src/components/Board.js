@@ -5,7 +5,6 @@ const Board = ({ squares, onClick }) => {
   const renderSquare = (i) => {
     return <Square value={squares[i]} onClick={() => onClick(i)} />;
   };
-  //함수형 컴포넌트로 바꿔줌 #2 (밑에 renderSquare도 똑같이 바꿔줌)
 
   return (
     <div>
